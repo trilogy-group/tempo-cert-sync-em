@@ -117,6 +117,8 @@ function syncCertSheet() {
   
   if(sheetName.indexOf("Cert-")>-1){
     var data = {
+      'certType': 'EM',
+      'gSheetId': '1xLf55Pv8OkYidRGQvc7CaGx62xqBX1wBSHdDcbWaF8g',
       'sheetName': sheetName
     };
     var options = {
@@ -142,6 +144,8 @@ function syncCertSheet() {
 function clearRules() {
   
     var data = {
+      'certType': 'EM',
+      'gSheetId': '1xLf55Pv8OkYidRGQvc7CaGx62xqBX1wBSHdDcbWaF8g',
       'clearRulesOnly': true
     };
     var options = {
